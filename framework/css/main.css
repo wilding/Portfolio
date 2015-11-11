@@ -1,0 +1,144 @@
+
+
+
+/*
+* {
+	border: 1px solid red !important;
+}*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: 'Overlock', cursive;
+}
+
+
+@media only screen and (max-width: 1000px) {
+	p {
+		background-color: blue;
+	}
+}
+@media only screen and(max-width: 500px) {
+	p {
+		display: none;
+	}
+}
+
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 24.99%;
+}
+.col-4 {
+	width: 33.32%;
+}
+.col-5 {
+	width: 41.65%;
+}
+.col-6 {
+	width: 49.98%;
+}
+.col-7 {
+	width: 58.31%;
+}
+.col-8 {
+	width: 66.64%;
+}
+.col-9 {
+	width: 74.97%;
+}
+.col-10 {
+	width: 83.30%;
+}
+.col-11 {
+	width: 91.63%;
+}
+.col-12 {
+	width: 99.96%;
+}
+
+
+
+
+
+
+IMG.logo {
+	margin-top: 12px;
+	margin-left: 80px;
+}
+
+IMG.bigpic {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+IMG.one {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+IMG.two {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+IMG.three {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+
+
+
+.name {
+	text-align: right;
+	margin-right: 80px;
+	margin-bottom: 0px;
+	margin-top: 35px;
+}
+.undertext {
+	text-align: right;
+	margin-right: 80px;
+	margin-top: 0px;
+}
+
+
+
+
+.header {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 63px;
+}
+.firstTitle {
+	text-align: center;
+}
+.secondTitle {
+	text-align: center;
+}
+.thirdTitle {
+	text-align: center;
+}
